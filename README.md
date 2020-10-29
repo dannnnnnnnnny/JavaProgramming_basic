@@ -25,6 +25,11 @@ Computer
 - 1회성 클래스는 Constructor(생성자)가 없음
 - PrintWriter의 경우 Constructor가 존재하고 이를 통해 인스턴스를 만드는 것이 허용되어 있다고 할 수 있음
 
+# 상속 (Inheritance)
+- java.io.PrintWriter는 java.io.Writer를 상속받고 있으며 Writer는 java.lang.Object를 상속받고 있음. (부모, 자식)
+- 부모의 변수, 메소드를 그대로 물려받으면서 자신의 메소드, 변수를 추가하여 만듦
+- 부모의 메소드를 자식에서 그대로 사용할 수 있는데 이를 override 했다고 함.
+
 
 
 
